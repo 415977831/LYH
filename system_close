@@ -11,7 +11,7 @@ int main()
 again:
 	printf("请注意，你的电脑在10秒内关机，如果输入：航哥超帅,就取消关机\n请输入>：");
 	scanf("%s", input);
-	if (strcmp(input, "航哥超帅") == 0)
+	if (strcmp(input, "航哥超帅") == 0)//比较两个字符串-strcmp
 	{
 		system("shutdown -a");
 	}
